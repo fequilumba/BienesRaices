@@ -119,7 +119,9 @@ h4{
 }
 .contenido-anuncio{
     padding: 2rem;
+    
 }
-.contenido-anuncio h3, .contenido-anuncio p{
+.contenido-anuncio h3, 
+.contenido-anuncio p{
     margin: 0;
 }
