@@ -1,5 +1,7 @@
 <<?php
- include'includes/templates/header.php';
+
+    require 'includes/funciones.php';   /** PARA CODIGO MAS COMPLEJO E INFORMACION IMPORTANTE DE LA APLICACION**/
+    incluirTemplate('header')
 ?>
 
     <main class="contenedor seccion contenido-centrado">
@@ -36,5 +38,5 @@
 
 
 <?php
-    include'includes/templates/footer.php';
+    incluirTemplate('footer')
 ?>
